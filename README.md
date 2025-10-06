@@ -1,8 +1,7 @@
 # Digital Signal Processing & Image Processing | (Serial C vs OpenMP) Benchmarks
 
-This project evaluates the performance of common Digital Signal Processing and Image Processing algorithms implemented in C and parallelized using OpenMP.
-No advanced OpenMP optimization was applied; the focus is to see how adding minimal OpenMP directives to serial C code affects runtime behavior across different data sizes.
-The results highlight the trade-off between compute intensity and parallel overhead on multicore CPUs.
+This project repo benchmarks different DSP and image processing algorithms such as FIR filtering convolution, moving average, and Sobel edge detection implemented in C and parallelized with OpenMP.
+The aim is to observe how minimal OpenMP lines of code affect runtime as data size increases, revealing the balance between speed-up and parallel overhead on multicore CPUs.
 
 
 | Algorithm                 | Domain            | Description                                                      |
